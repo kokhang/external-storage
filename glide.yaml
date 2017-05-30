@@ -17,7 +17,8 @@ import:
 - package: github.com/mitchellh/mapstructure
   version: db1efb5
 - package: k8s.io/apimachinery
-  version: 28d5d92
+  repo: https://github.com/kokhang/apimachinery
+  version: rook-volume-plugin
   subpackages:
   - pkg/api/errors
   - pkg/api/resource
@@ -31,7 +32,8 @@ import:
   - pkg/util/wait
   - pkg/watch
 - package: k8s.io/client-go
-  version: 0ec10d4
+  repo: https://github.com/kokhang/client-go
+  version: rook-volume-plugin
   subpackages:
   - kubernetes
   - kubernetes/typed/core/v1
@@ -44,7 +46,8 @@ import:
   - tools/clientcmd
   - tools/record
 - package: k8s.io/kubernetes
-  version: v1.6.0
+  repo: https://github.com/kokhang/kubernetes
+  version: rook-volume-plugin
   subpackages:
   - pkg/util/goroutinemap
   - pkg/util/version
